@@ -40,7 +40,7 @@ https://pauseaq.github.io/subjectTable1-2.html
 16. HTML5 시간표 - 3
 https://pauseaq.github.io/subjectTable1-3.html
 
-인터넷응용 3주 3회차
+인터넷응용 4주 1회차
 
 17. HTML5 DIV SPAN
 https://pauseaq.github.io/divSpan.html
