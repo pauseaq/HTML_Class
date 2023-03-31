@@ -4,47 +4,95 @@
         <meta charset = "utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <style>
-            table, thead, tbody, tfoot, tr, th, td { border: 1px solid black; border-collapse: collapse; text-align: center; }
-            .subject1 { background-color:lightgray; } .subject2 { background-color:blue; } .subject3 { background-color:white; } .subject4 { background-color:yellow; } .subject5 { background-color: green; } .subject6 { background-color: Orange; } .subject7 { background-color: Purple; }
+            table, thead, tbody, tfoot, tr, th, td { border: 1px solid black; border-collapse: collapse; text-align: center; width: 1000px; }
+            .subject1 { background-color:#EFF9CC; } .subject2 { background-color:#FFF8CC; } .subject3 { background-color:#DEE8F6; } 
+            .subject4 { background-color:#F2E8E8; } .subject5 { background-color:#FFE9E9; } .subject6 { background-color:#DCF2E9; } 
+            .subject7 { background-color:#FFEDDA; }
             th, td {width:50px; }
         </style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
         <title>HTML5 시간표</title>
     </head>
     <body>
-        <table>
-            <caption>&lt;표 1&gt; 시간표</caption>
-            <thead>
-                <tr><th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th> <th>토</th> </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1교시</td><td></td>    <td rowspan="2" class="subject1">자료구조및실습</td> <td></td> <td rowspan="3" class="subject2">데이터과학과현대사회</td> <td></td> <td></td>
-                </tr>
-                <tr>
-                    <td>2교시</td><td></td>    <td></td>
-                </tr>
-                <tr>
-                    <td>3교시</td><td rowspan="3" class="subject2">국어</td> <td></td><td></td>
-                </tr>
-                <tr>
-                    <td>4교시</td> <td></td><td></td>
-                </tr>
-                <tr>
-                    <td>5교시</td> <td></td><td></td>
-                </tr>
-                <tr>
-                    <td>6교시</td><td></td>     <td></td><td></td>
-                </tr>
-                <tr>
-                    <td>7교시</td><td></td>     <td></td><td></td>
-                </tr>
-                <tr>
-                    <td>8교시</td><td></td>     <td></td><td></td>
-                </tr>
-                <tr>
-                    <td>9교시</td><td></td>     <td></td><td></td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+  <table>
+    <tr>
+      <th>시간/요일</th>
+      <th>월요일</th>
+      <th>화요일</th>
+      <th>수요일</th>
+      <th>목요일</th>
+      <th>금요일</th>
+      <th>토요일</th>
+    </tr>
+    <tr>
+      <td>1교시<br>9:00-10:00</td>
+      <td></td>
+      <td rowspan="2" class="subject1">자료구조및실습</td>
+      <td></td>
+      <td rowspan="3" class="subject2">데이터과학과현대사회</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2교시<br>10:00~11:00</td>
+      <td></td>
+      <td class="subject3">이산수학</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3교시<br>11:00~12:00</td>
+      <td></td>
+      <td></td>
+      <td rowspan="2" class="subject1">자료구조및실습</td>
+      <td></td>
+      <td rowspan="2" class="subject4">생활과경제</td>
+    </tr>
+    <tr>
+      <td>4교시<br>12:00~13:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5교시<br>13:00~14:00</td>
+      <td></td>
+      <td rowspan="2" class="subject5">생활속의통계</td>
+      <td rowspan="4" class="subject6">C++ 프로그래밍</td>
+      <td rowspan="2" class="subject7">인터넷응용</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6교시<br>14:00~15:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7교시<br>15:00~16:00</td>
+      <td rowspan="2" class="subject3">이산수학</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8교시<br>16:00~17:00</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9교시<br>17:00~18:00</td>
+      <td></td>
+      <td class="subject7">인터넷응용</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</body>
 </html>
