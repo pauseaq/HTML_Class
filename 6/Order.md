@@ -24,7 +24,13 @@ https://pauseaq.github.io/6/basicSemantic3.html
 https://pauseaq.github.io/6/anchor2.html
 
 
+인터넷응용 6주 3회차
 
+[6] 폼 학습 (1)
+https://pauseaq.github.io/6/formFieldset1.html
+
+[7] 폼 학습 (2)
+https://pauseaq.github.io/6/formText1.html
 
 
 -----------------------------------------------------------------
