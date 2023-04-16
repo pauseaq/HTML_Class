@@ -2,13 +2,17 @@
 인터넷응용 3주 1회차
 
 1. 문서 타이틀 표제 (1) : basicHeading.html <br>
-https://pauseaq.github.io/3/basicHeading.html
+코드 : https://github.com/pauseaq/pauseaq.github.io/blob/main/3/basicHeading.html <br>
+실행 : https://pauseaq.github.io/3/basicHeading.html
 2. 문서 타이틀 표제 (2) : basicPBrHr.html <br>
-https://pauseaq.github.io/3/basicPBrHr.html
+코드 : https://github.com/pauseaq/pauseaq.github.io/blob/main/3/basicPBrHr.html <br>
+실행 : https://pauseaq.github.io/3/basicPBrHr.html
 3. 문서 타이틀 표제 (3) : basicChar.html <br>
-https://pauseaq.github.io/3/basicChar.html
+코드 : https://github.com/pauseaq/pauseaq.github.io/blob/main/3/basicChar.html <br>
+실행 : https://pauseaq.github.io/3/basicChar.html
 4. 애국가 (4) : koreaAnthem4.html <br>
-https://pauseaq.github.io/3/koreaAnthem4.html
+코드 : https://github.com/pauseaq/pauseaq.github.io/blob/main/3/koreaAnthem4.html <br>
+실행 : https://pauseaq.github.io/3/koreaAnthem4.html
 
 <hr>
 
@@ -27,8 +31,9 @@ https://pauseaq.github.io/3/koreaAnthem6.html
 
 인터넷응용 3주 3회차
 
-9. HTML5 테이블 테스트 실습 : basicTable1.html <br> https://github.com/pauseaq/pauseaq.github.io/blob/main/3/basicTable1.html <br>
-https://pauseaq.github.io/3/basicTable1.html
+9. HTML5 테이블 테스트 실습 : basicTable1.html <br> 
+코드 : https://github.com/pauseaq/pauseaq.github.io/blob/main/3/basicTable1.html <br>
+실행 : https://pauseaq.github.io/3/basicTable1.html
 10. HTML5 테이블 스팬 실습 : tableSpan.html <br>
 https://pauseaq.github.io/3/tableSpan.html
 11. HTML5 고급 테이블 실습 : advTable.html <br>
