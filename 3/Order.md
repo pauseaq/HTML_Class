@@ -27,7 +27,7 @@ https://pauseaq.github.io/3/koreaAnthem6.html
 
 인터넷응용 3주 3회차
 
-9. HTML5 테이블 테스트 실습 : basicTable1.html <br>
+9. HTML5 테이블 테스트 실습 : basicTable1.html <br> https://github.com/pauseaq/pauseaq.github.io/blob/main/3/basicTable1.html <br>
 https://pauseaq.github.io/3/basicTable1.html
 10. HTML5 테이블 스팬 실습 : tableSpan.html <br>
 https://pauseaq.github.io/3/tableSpan.html
