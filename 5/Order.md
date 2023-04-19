@@ -2,7 +2,7 @@
 
 1 = HTML5 앵커 실습 (1) anchor1.html <br>
 https://github.com/pauseaq/pauseaq.github.io/tree/main/5/achor1.html<br>
-https://pauseaq.github.io/5/anchor1.html
+https://pauseaq.github.io/5/(1)/anchor1.html
 
 2 = HTML5 앵커 실습 (2) advAnchor.html<br>
 https://github.com/pauseaq/pauseaq.github.io/tree/main/5/advAnchor.html<br>
