@@ -12,7 +12,7 @@ https://pauseaq.github.io/5/advAnchor.html
 https://github.com/pauseaq/pauseaq.github.io/tree/main/5/basicSemantic1.html<br>
 https://pauseaq.github.io/5/basicSemantic1.html
 
-<hr>
+
 
 <h1>인터넷응용 5주 2회차</h1><br>
 
