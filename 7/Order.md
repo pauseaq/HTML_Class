@@ -9,7 +9,7 @@ formSearch1.html<br>
 formSearch1.jsp<hr>
 
 formDateTime1.html<br>
-formDateTime1.jsp<hr>
+formDateTime1.jsp
 
 
 <h1>7주 2회차</h1>
@@ -22,7 +22,7 @@ formPublic1.jsp<br>
 formBike1.jsp<hr>
 
 formSelect1.html<br>
-formSelect1.jsp<hr>
+formSelect1.jsp
 
 <h1>7주 3회차</h1>
 formMselect1.html<br>
