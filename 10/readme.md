@@ -1,6 +1,6 @@
 <h1>인터넷응용 10주 1회차</h1>
 <ul>
-	<li>선택자 tag 실습 : select</li>
+	<li>선택자 tag 실습 : selectortag.html</li>
 	<li>선택자 class 실습 (1) : selectorcls.html</li>
 	<li>선택자 class 실습 (2) : selectorid.html</li>
 </ul>
