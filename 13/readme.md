@@ -1,4 +1,4 @@
-<h1>13주 1회차</h1>
+<h1>인터넷응용 13주 1회차</h1>
 <ol>
   <li>CSS 목록 실습 (1) : cssList1.html
     <br>https://pauseaq.github.io/13/cssList1.html</li>
@@ -8,7 +8,7 @@
 
 <hr>
 
-<h1>13주 2회차</h1>
+<h1>인터넷응용 13주 2회차</h1>
 <ol>
   <li>로그인 실습 (1) : login1.html
     <br>https://pauseaq.github.io/13/login1.html</li>
@@ -34,7 +34,7 @@
 
 <hr>
 
-<h1>13주 3회차</h1>
+<h1>인터넷응용 13주 3회차</h1>
 <ol>
   <li>CSS 테이블 실습 (1) : cssTable1.html
     <br>https://pauseaq.github.io/13/cssTable1.html</li>
