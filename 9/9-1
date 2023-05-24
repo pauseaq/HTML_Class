@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>인터넷응용 기말고사 대비 요약정리</title>
+    </head>
+    <body>
+        <h1>9주 1회차</h1>
+        <ul>
+            <li>CSS란?</li>
+            <ul>
+                <li>HTML 문서의 <span style="color: red;">외형(외모)</span>을 정의하기 위한 문장의 집합</li>
+                <li>HTML 엘리먼트에 크기, 색깔 등 스타일을 <span style="color: red;">일괄적</span>으로 적용</li>
+                <li>Cascading Style Sheet</li>
+            </ul>
+            <li>CSS3</li>
+            <ul>
+                <li>스타일 정보를 속성과 속성값으로 지정하는 방식</li>
+                <li>스타일 정보는 <span style="color: blue;">연속적(Cascading)</span>으로 지정 가능</li>
+                <li>W3C Recommendation</li>
+            </ul>
+            <li>연속적인 의미</li>
+            <ul>
+                <li>DOM 구조에서 <span style="color: blue;">상위 요소 스타일의 하위 요소 적용</span></li>
+                <li><span style="color: blue;">한 요소에 연속적인 스타일 적용</span>(예: 색깔, 컬러, 크기 등등)</li>
+            </ul>
+            <li>Before CSS</li>
+            <ul>
+                <li>각각의 HTML 엘리먼트에 style을 매번 지정</li>
+                <li>MVC 혼재 -> 유지관리(변경) 어려움</li>
+            </ul>
+            <li>CSS 의미</li>
+            <ul>
+                <li>대부분의 HTML 엘리먼트는 <span style="color: blue;">고유의 스타일 프로퍼티(속성)</span>을 보유함</li>
+                <li>개발자는 &lt;style&gt; 엘리먼트를 이용하여 엘리먼트의 <span style="color: blue;">스타일속성을<span> <span style="color: red;">재정의</span></li>
+                <li>사전에 정의된 고유의 HTML 스타일 속성이 <span style="color: blue;">변경되어 반영됨</span></li>
+            </ul>
+            <li><span style="color: blue;">&lt;div&gt; 예시</span></li>
+            <ul>
+                <li><span style="color: red;">고유</span> 스타일 속성</li>
+                <div>div { display:block; } <br/>
+                // display 프로퍼티는 box 타입을 설정 <br>
+                // block(기본값), inline, none 가능
+                </div>
+                <li>개발자작성(<span style="color: red;">재정의</span>) 스타일 속성</li>
+                <div>div { display:<span style="color: red;">inline</span>; border:1px solid red; } <br>
+                // 인라인 타입으로 변경 <br>
+                // 경계선 : 1px 실선 붉은색
+                </div>
+            </ul>
+        </ul>
+        <hr>
+
+        <code>
+            &lt;!doctype html&gt; &lt;!-- basciCssIntro1.html --&gt;
+            <br/>            &lt;html&gt;
+            <br/>                &lt;head&gt;
+            <br/>                    &lt;meta charset=&quot;utf-8&quot;/&gt;
+            <br/>                    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale = 1&quot;/&gt;
+            <br/>                    &lt;style&gt;
+            <br/>                        div#div1 {                 border:1px solid red; } /* div&#xb294; display:block;&#xb97c; &#xae30;&#xbcf8;&#xac12; &#xbcf4;&#xc720; */
+            <br/>                        div#div2 { display:inline; border:1px solid blue; }
+            <br/>                        div#div3 { display:none; }
+            <br/>                    &lt;/style&gt;
+            <br/>                    &lt;title&gt;CSS &#xc2e4;&#xc2b5;&lt;/title&gt;
+            <br/>                &lt;/head&gt;
+            <br/>                &lt;body&gt;
+            <br/>                    &lt;div id=&quot;div1&quot;&gt;
+            <br/>                        &#xb300;&#xbd80;&#xbd84;&#xc758; HTML &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb294; &#xace0;&#xc720;&#xc758; &#xc2a4;&#xd0c0;&#xc77c; &#xd504;&#xb85c;&#xd37c;&#xd2f0;(&#xc18d;&#xc131;)&#xc744; &#xbcf4;&#xc720;&#xd558;&#xace0; &#xc788;&#xb2e4;. 
+            <br/>                        &#xac1c;&#xbc1c;&#xc790;&#xb294; style &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xc5ec; &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xc758; &#xc2a4;&#xd0c0;&#xc77c;&#xc18d;&#xc131;&#xc744; &#xc7ac;&#xc815;&#xc758;&#xd560; &#xc218; &#xc788;&#xc73c;&#xba70;, 
+            <br/>                        &#xc774;&#xb54c; &#xc0ac;&#xc804;&#xc5d0; &#xc815;&#xc758;&#xb41c; &#xace0;&#xc720;&#xc758; HTML &#xc2a4;&#xd0c0;&#xc77c; &#xc18d;&#xc131;&#xc774; &#xbcc0;&#xacbd;&#xb418;&#xc5b4; &#xbc18;&#xc601;&#xb41c;&#xb2e4;.
+            <br/>                    &lt;/div&gt;
+            <br/>                    &lt;div id=&quot;div2&quot;&gt;
+            <br/>                        &#xb300;&#xbd80;&#xbd84;&#xc758; HTML &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb294; &#xace0;&#xc720;&#xc758; &#xc2a4;&#xd0c0;&#xc77c; &#xd504;&#xb85c;&#xd37c;&#xd2f0;(&#xc18d;&#xc131;)&#xc744; &#xbcf4;&#xc720;&#xd558;&#xace0; &#xc788;&#xb2e4;. 
+            <br/>                        &#xac1c;&#xbc1c;&#xc790;&#xb294; style &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xc5ec; &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xc758; &#xc2a4;&#xd0c0;&#xc77c;&#xc18d;&#xc131;&#xc744; &#xc7ac;&#xc815;&#xc758;&#xd560; &#xc218; &#xc788;&#xc73c;&#xba70;, 
+            <br/>                        &#xc774;&#xb54c; &#xc0ac;&#xc804;&#xc5d0; &#xc815;&#xc758;&#xb41c; &#xace0;&#xc720;&#xc758; HTML &#xc2a4;&#xd0c0;&#xc77c; &#xc18d;&#xc131;&#xc774; &#xbcc0;&#xacbd;&#xb418;&#xc5b4; &#xbc18;&#xc601;&#xb41c;&#xb2e4;.
+            <br/>                    &lt;/div&gt;
+            <br/>                    &lt;div id=&quot;div3&quot;&gt;
+            <br/>                        &#xb300;&#xbd80;&#xbd84;&#xc758; HTML &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb294; &#xace0;&#xc720;&#xc758; &#xc2a4;&#xd0c0;&#xc77c; &#xd504;&#xb85c;&#xd37c;&#xd2f0;(&#xc18d;&#xc131;)&#xc744; &#xbcf4;&#xc720;&#xd558;&#xace0; &#xc788;&#xb2e4;. 
+            <br/>                        &#xac1c;&#xbc1c;&#xc790;&#xb294; style &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xc5ec; &#xc5d8;&#xb9ac;&#xba3c;&#xd2b8;&#xc758; &#xc2a4;&#xd0c0;&#xc77c;&#xc18d;&#xc131;&#xc744; &#xc7ac;&#xc815;&#xc758;&#xd560; &#xc218; &#xc788;&#xc73c;&#xba70;, 
+            <br/>                        &#xc774;&#xb54c; &#xc0ac;&#xc804;&#xc5d0; &#xc815;&#xc758;&#xb41c; &#xace0;&#xc720;&#xc758; HTML &#xc2a4;&#xd0c0;&#xc77c; &#xc18d;&#xc131;&#xc774; &#xbcc0;&#xacbd;&#xb418;&#xc5b4; &#xbc18;&#xc601;&#xb41c;&#xb2e4;.
+            <br/>                    &lt;/div&gt;
+            <br/>                &lt;/body&gt;
+            <br/>            &lt;/html&gt;
+            <hr>
+            <!doctype html> <!-- basciCssIntro1.html -->
+            <html>
+                <head>
+                    <meta charset="utf-8"/>
+                    <meta name="viewport" content="width=device-width, initial-scale = 1"/>
+                    <style>
+                        div#div1 {                 border:1px solid red; } /* div는 display:block;를 기본값 보유 */
+                        div#div2 { display:inline; border:1px solid blue; }
+                        div#div3 { display:none; }
+                    </style>
+                    <title>CSS 실습</title>
+                </head>
+                <body>
+                    <div id="div1">
+                        대부분의 HTML 엘리먼트는 고유의 스타일 프로퍼티(속성)을 보유하고 있다. 
+                        개발자는 style 엘리먼트를 이용하여 엘리먼트의 스타일속성을 재정의할 수 있으며, 
+                        이때 사전에 정의된 고유의 HTML 스타일 속성이 변경되어 반영된다.
+                    </div>
+                    <div id="div2">
+                        대부분의 HTML 엘리먼트는 고유의 스타일 프로퍼티(속성)을 보유하고 있다. 
+                        개발자는 style 엘리먼트를 이용하여 엘리먼트의 스타일속성을 재정의할 수 있으며, 
+                        이때 사전에 정의된 고유의 HTML 스타일 속성이 변경되어 반영된다.
+                    </div>
+                    <div id="div3">
+                        대부분의 HTML 엘리먼트는 고유의 스타일 프로퍼티(속성)을 보유하고 있다. 
+                        개발자는 style 엘리먼트를 이용하여 엘리먼트의 스타일속성을 재정의할 수 있으며, 
+                        이때 사전에 정의된 고유의 HTML 스타일 속성이 변경되어 반영된다.
+                    </div>
+                </body>
+            </html>
+
+        </code>
+        <hr>
+
+    </body>
+</html>
