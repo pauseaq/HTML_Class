@@ -4,7 +4,7 @@
 
 2-3 https://youtu.be/6VBjbCq1PFQ
 
-
+<hr>
 
 3-1 https://youtu.be/4v3O9Eo34I8
 
@@ -12,7 +12,7 @@
 
 3-3 https://youtu.be/OZAtVjjY2T4
 
-
+<hr>
 
 4-1 https://youtu.be/5Dlm9kCIdmY
 
@@ -20,7 +20,7 @@
 
 4-3 https://youtu.be/so-l2GK1RRU
 
-
+<hr>
 
 5-1 https://youtu.be/yYs0vR_oPIs
 
@@ -28,7 +28,7 @@
 
 5-3 https://youtu.be/YjrF-mQMIQk
 
-
+<hr>
 
 6-1 https://youtu.be/Iprm-k9EHPo
 
@@ -36,7 +36,7 @@
 
 6-3 https://youtu.be/eyZtrIWlq90
 
-
+<hr>
 
 7-1 https://youtu.be/w07lulHjVvY
 
@@ -44,7 +44,7 @@
 
 7-3 https://youtu.be/srjt0IC8SO0
 
-
+<hr>
 
 9-1 https://youtu.be/kjn4yiEaS3k
 
@@ -52,7 +52,7 @@
 
 9-3 https://youtu.be/NNp0taXuIn4
 
-
+<hr>
 
 10-1 https://youtu.be/5HrrvJiZcFg
 
@@ -60,7 +60,7 @@
 
 10-3 https://youtu.be/xUQZY_ENmVY
 
-
+<hr>
 
 11-1 https://youtu.be/acqJ4EDEGJc
 
@@ -68,7 +68,7 @@
 
 11-3 https://youtu.be/joDIhqXUOgc
 
-
+<hr>
 
 12-1 https://youtu.be/yzt5dpmzDPs
 
@@ -76,7 +76,7 @@
 
 12-3 https://youtu.be/VAY3Uu3t4_Q
 
-
+<hr>
 
 13-1 https://youtu.be/jsNZsL67YUw
 
@@ -84,7 +84,7 @@
 
 13-3 https://youtu.be/flHHMpEk5Lo
 
-
+<hr>
 
 14-1 https://youtu.be/v2FtWuY_PC4
 
