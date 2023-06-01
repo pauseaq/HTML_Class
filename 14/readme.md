@@ -1,6 +1,5 @@
 <ol>
 <h1>인터넷응용 14주 1회차</h1>
-
 	<li>RWD 실습 (1) : <a href="https://github.com/pauseaq/pauseaq.github.io/blob/main/14/rwd0.html">rwd0.html</a><br>https://pauseaq.github.io/14/rwd0.html</li>
 
 <hr>
